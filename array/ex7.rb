@@ -22,3 +22,10 @@ for i in 0...array.length do
 end
 puts array.inspect
 puts temp
+
+# Using array's method
+old_length = array.length
+array.delete x
+count = old_length - array.length
+
+# TODO: Xoa toan bo phan tu le cua mang su dung ham delete

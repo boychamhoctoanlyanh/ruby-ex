@@ -17,10 +17,12 @@ array_new=Array.new
 
 array.each do |num|
 	
-	if(num<=x)
+	if(num <= x)
 		puts num
 		array_new.push num
 	end
 end
 
 puts array_new.inspect
+
+# TODO: Giai bai nay su dung ham map hoac ham select
